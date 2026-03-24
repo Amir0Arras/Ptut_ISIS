@@ -22,7 +22,7 @@ const initializeData = () => {
     const defaultUsers = [
       {
         id: '1',
-        email: 'admin@isis.com',
+        email: 'admin@etud.univ-jfc.fr',
         password: 'admin123',
         firstName: 'Admin',
         lastName: 'User',
@@ -32,7 +32,7 @@ const initializeData = () => {
       },
       {
         id: '2',
-        email: 'contributeur@isis.com',
+        email: 'contributeur@etud.univ-jfc.fr',
         password: 'contrib123',
         firstName: 'Contributeur',
         lastName: 'User',
