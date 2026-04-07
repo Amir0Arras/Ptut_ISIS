@@ -26,4 +26,10 @@
     "tailwindcss-animate": "^1.0.7",
     "vite": "^5.0.0"
   }
+  {
+  "scripts": {
+    "build": "npm run build",
+    "start": "npm run preview"
+  }
+}
 }
