@@ -8,7 +8,7 @@
         </div>
         <div class="flex flex-col gap-1 w-full text-center">
           <h1 class="text-4xl font-bold text-white">ISIS Archives</h1>
-          <p class="text-white/70 text-lg">Plateforme de gestion documentaire médicale</p>
+          <p class="text-white/70 text-lg">Plateforme de gestion documentaire </p>
           <RouterLink to="/" class="mt-6">
             <button class="px-8 py-3 bg-white text-gray-900 font-bold rounded-xl shadow-xl hover:shadow-2xl transition-all hover:-translate-y-0.5">Se connecter</button>
           </RouterLink>
