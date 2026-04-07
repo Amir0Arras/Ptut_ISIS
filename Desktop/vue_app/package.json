@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "start": "serve -s dist"
+    "build": "node node_modules/vite/bin/vite.js build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.4.0",
@@ -16,7 +16,6 @@
     "lucide-vue-next": "^0.469.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0",
-    "serve": "^14.2.6",
     "vite": "^5.0.0",
     "@vitejs/plugin-vue": "^5.0.0",
     "autoprefixer": "^10.4.20",
@@ -25,6 +24,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
