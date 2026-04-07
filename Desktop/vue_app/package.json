@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+     "preinstall": "npm install -g vite",
     "dev": "npx vite --host :: --port 3000",
     "build": "npx vite build",
     "start": "npx serve -s dist",
