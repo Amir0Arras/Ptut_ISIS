@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-     "preinstall": "npm install -g vite",
+    "preinstall": "npm install -g vite",
     "dev": "npx vite --host :: --port 3000",
-    "build": "npx vite build",
+     "build": "node -e \"require('child_process').execSync('npx vite build', {stdio:'inherit'})\"",
     "start": "npx serve -s dist",
     "lint": "npx eslint . --quiet"
   },
