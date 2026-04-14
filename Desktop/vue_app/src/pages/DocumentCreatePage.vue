@@ -78,7 +78,7 @@ const router = useRouter()
 const isSubmitting = ref(false)
 
 const form = ref({ objet: '', periode: '', auteur: '', poste: '', service: '', description: '', tags: '' })
-const services = ['Cardiologie', 'Neurologie', 'Pédiatrie', 'Urgences', 'Administration', 'Ressources Humaines', 'Laboratoire', 'Radiologie']
+const services = ['Direction', 'Financier', 'Scolarité', 'Communication', 'Patrimoine', 'Ressources Humaines', 'Informatique', 'Vie étudiante','Enseignements','Recherche','Relation partenariales','Commun']
 
 const handleSubmit = async () => {
   isSubmitting.value = true

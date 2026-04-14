@@ -96,7 +96,7 @@
 
     <footer class="bg-white border-t border-gray-200 py-8 mt-auto">
       <div class="max-w-7xl mx-auto px-4 text-center">
-        <p class="text-sm text-gray-500 font-medium">&copy; {{ new Date().getFullYear() }} ISIS Archives. Plateforme Médicale Sécurisée.</p>
+        <p class="text-sm text-gray-500 font-medium">&copy; {{ new Date().getFullYear() }} ISIS Archives. Plateforme documentaire Sécurisée.</p>
         <div class="mt-4 flex justify-center space-x-6">
           <span class="text-xs text-gray-400 hover:text-medical-blue cursor-pointer">Confidentialité</span>
           <span class="text-xs text-gray-400 hover:text-medical-blue cursor-pointer">Conditions d'utilisation</span>
