@@ -39,6 +39,38 @@
               <option value="Admin">Admin</option>
             </select>
           </div>
+          <!-- Direction -->
+<div>
+  <label class="block text-sm font-medium text-gray-700 mb-2">
+    Direction <span class="text-red-500">*</span>
+  </label>
+  <select v-model="form.direction" required
+    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-blue bg-white text-gray-900 outline-none">
+    <option value="RH">RH</option>
+    <option value="Financier">Financier</option>
+    <option value="Scolarité">Scolarité</option>
+    <option value="Communication">Communication</option>
+    <option value="Patrimoine">Patrimoine</option>
+    <option value="Informatique">Informatique</option>
+    <option value="Vie étudiante">Vie étudiante</option>
+    <option value="Enseignements">Enseignements</option>
+    <option value="Recherche">Recherche</option>
+    <option value="Relation partenariales">Relation partenariales</option>
+    <option value="Commun">Commun</option>
+  </select>
+</div>
+
+<!-- Fonction des droits -->
+<div>
+  <label class="block text-sm font-medium text-gray-700 mb-2">
+    Fonction des droits <span class="text-red-500">*</span>
+  </label>
+  <select v-model="form.permissions" required
+    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-blue bg-white text-gray-900 outline-none">
+    <option value="MODIFICATION">Modification (visualisation + modifier)</option>
+    <option value="CONSULTATION">Consultation (lecture seule)</option>
+  </select>
+</div>
           <div class="flex gap-4 pt-6">
             <button type="submit" :disabled="isSubmitting" class="flex-1 flex items-center justify-center gap-2 py-3 bg-gradient-to-r from-medical-blue to-health-green text-white rounded-lg font-semibold shadow-lg disabled:opacity-70">
               <Save class="w-4 h-4" />{{ isSubmitting ? 'Création...' : 'Créer l\'utilisateur' }}
@@ -62,7 +94,15 @@ const { toast } = useToast()
 const router = useRouter()
 const isSubmitting = ref(false)
 const showPwd = ref(false)
-const form = ref({ email: '', firstName: '', lastName: '', role: 'Contributeur', password: 'changeme123' })
+const form = ref({
+  email: '',
+  firstName: '',
+  lastName: '',
+  role: 'Contributeur',
+  password: 'changeme123',
+  direction: 'RH',
+  permissions: 'CONSULTATION'
+})
 
 const handleSubmit = async () => {
   isSubmitting.value = true
