@@ -41,7 +41,7 @@
                 <label class="block text-sm font-semibold text-gray-700 ml-1">Identifiant Professionnel</label>
                 <div class="relative group">
                   <Mail class="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 group-focus-within:text-medical-blue transition-colors" />
-                  <input v-model="email" type="email" required autocomplete="username" placeholder="nom@isis.com"
+                  <input v-model="email" type="email" required autocomplete="username" placeholder="username@etud.univ-jfc.fr"
                     class="w-full pl-11 pr-4 py-3.5 border border-gray-200 rounded-xl focus:ring-4 focus:ring-medical-blue/10 focus:border-medical-blue transition-all outline-none bg-gray-50/50 focus:bg-white text-gray-900 placeholder:text-gray-400" />
                 </div>
               </div>

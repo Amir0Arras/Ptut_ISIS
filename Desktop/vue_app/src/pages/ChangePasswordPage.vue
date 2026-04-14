@@ -11,7 +11,7 @@
                 <Shield class="w-8 h-8 text-white" />
               </div>
               <h1 class="text-2xl font-bold text-white mb-2">Sécurité du Compte</h1>
-              <p class="text-blue-50 text-sm max-w-sm">Mettez à jour vos identifiants pour garantir la sécurité des données médicales.</p>
+              <p class="text-blue-50 text-sm max-w-sm">Mettez à jour vos identifiants pour garantir la sécurité des données .</p>
             </div>
           </div>
 

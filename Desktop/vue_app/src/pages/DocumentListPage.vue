@@ -35,15 +35,23 @@
 
         <Transition name="expand">
           <div v-if="showFilters" class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 pt-4 border-t border-gray-200">
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-2">Service</label>
-              <select v-model="filterService" class="w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-900 bg-white">
-                <option value="">Tous les services</option>
-                <option value="Cardiologie">Cardiologie</option>
-                <option value="Neurologie">Neurologie</option>
-                <option value="Administration">Administration</option>
-              </select>
-            </div>
+           <div>
+  <label class="block text-sm font-medium text-gray-700 mb-2">Service</label>
+  <select v-model="filterService" class="w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-900 bg-white">
+    <option value="">Tous les services</option>
+    <option value="RH">RH</option>
+    <option value="Financier">Financier</option>
+    <option value="Scolarité">Scolarité</option>
+    <option value="Communication">Communication</option>
+    <option value="Patrimoine">Patrimoine</option>
+    <option value="Informatique">Informatique</option>
+    <option value="Vie étudiante">Vie étudiante</option>
+    <option value="Enseignements">Enseignements</option>
+    <option value="Recherche">Recherche</option>
+    <option value="Relation partenariales">Relation partenariales</option>
+    <option value="Commun">Commun</option>
+  </select>
+</div>
             <div>
               <label class="block text-sm font-medium text-gray-700 mb-2">Période</label>
               <select v-model="filterPeriode" class="w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-900 bg-white">

@@ -97,7 +97,7 @@
 
           <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-6 text-white shadow-xl">
             <h3 class="font-bold text-lg mb-2">Bénéfices de l'archivage</h3>
-            <p class="text-sm text-gray-300 mb-6 leading-relaxed">Une gestion rigoureuse permet de réduire les erreurs médicales de 30% et d'accélérer la recherche clinique.</p>
+            <p class="text-sm text-gray-300 mb-6 leading-relaxed">Une gestion rigoureuse permet de réduire les erreurs d'archivage et accélérer les processus de recherche.</p>
             <div class="space-y-3">
               <div class="flex items-center gap-3 text-sm text-gray-300">
                 <div class="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center"><CheckCircle2 class="w-3.5 h-3.5 text-health-green" /></div>

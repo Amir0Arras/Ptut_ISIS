@@ -34,9 +34,9 @@ const showTip = ref(false)
 
 const badges = {
   secure: { icon: Shield, text: 'Données Sécurisées', color: 'text-medical-blue bg-blue-50 border-blue-200', description: 'Vos données sont cryptées et stockées de manière sécurisée.' },
-  confidential: { icon: Lock, text: 'Confidentiel Médical', color: 'text-purple-700 bg-purple-50 border-purple-200', description: "L'accès à ce document est strictement réservé au personnel autorisé." },
+  confidential: { icon: Lock, text: 'Confidentielite', color: 'text-purple-700 bg-purple-50 border-purple-200', description: "L'accès à ce document est strictement réservé au personnel autorisé." },
   restricted: { icon: AlertCircle, text: 'Accès Restreint', color: 'text-amber-700 bg-amber-50 border-amber-200', description: "Ce contenu nécessite des privilèges d'administration." },
-  verified: { icon: CheckCircle, text: 'Vérifié & Validé', color: 'text-health-green bg-green-50 border-green-200', description: 'Ce contenu a été validé par un expert médical.' },
+  verified: { icon: CheckCircle, text: 'Vérifié & Validé', color: 'text-health-green bg-green-50 border-green-200', description: 'Ce contenu a été validé par l\'administration et est conforme aux normes de qualité.' },
   gdpr: { icon: Info, text: 'Conforme RGPD', color: 'text-gray-700 bg-gray-100 border-gray-200', description: 'Le traitement de ces données respecte le RGPD.' }
 }
 
